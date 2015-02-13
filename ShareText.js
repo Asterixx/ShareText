@@ -29,7 +29,7 @@ ST = {
    Y =e.pageY;
 
      
-      // IF ESC pressed shut the popup down
+      
 
       // window.onload = load;
      text = window.getSelection(); 
@@ -43,8 +43,7 @@ ST = {
      
       
 
-       //IF THERE IS selected text, and the limit User set is bigger than the number the function has already run
-       // or if limit is set to 'unlimited'. Then run:
+      
     if (limit > ST.limit ||  limit === 'noLimit'){  
 
          if(text.toString() != ""){   
@@ -69,7 +68,7 @@ ST = {
           clearTimeout(time);
           display('block')
        
-      }) // onmousever
+      }) 
       el(popupID).addEventListener('mouseleave',function () {
         countDown(1500);
       
