@@ -87,7 +87,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor ero
 ST.ShareText(‘myArticle’,’mypopup’,3000);
 
 </script>
-
+s
 
 .content{
 
