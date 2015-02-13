@@ -53,76 +53,7 @@ this : Required
 
     e.g. ST.mail(this,”This mail was sent from example.com”);
 
-e.g.
 
 
 
-//////The popup ///////////////////
-
-<div id=”mypopup”  class=”content”>
-
-<div class=”inner_content”>Esc</div>
-
-
-  <a href=’#’ onclick=’ST.twitter(“via @asterismano”,true)’ >
-   <img src=”img/twitter.svg” alt=”twitter”
- width=”26” height=”26” border=”0” />
- </a>
-
- <a href=”#” onclick=’ST.mail(this,”This mail was sent  from www.example.com”)’>
-   <img src=”img/at.png” alt=”mail”
- width=”26” height=”26” border=”0” />
- </a>
-
-</div>
-
-
-
-<div id=”myArticle”>
-
-<span>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor eros nisl, eu interdum diam varius ut. Suspendisse non ligula enim. Mauris id sem rutrum sapien pellentesque porttitor vel sit amet dolor. Sed porta bibendum ante, et cursus nulla ornare ut. Cras libero enim, luctus vitae fermentum vitae, commodo quis dolor. Etiam lacus neque, imperdiet quis nunc vel, commodo viverra eros. Ut venenatis ligula dictum, tincidunt velit volutpat, porttitor felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin vitae nunc turpis.
-
-</span>
-
-</div>
-
-
-<script type=”text/javascript”>
-ST.ShareText(‘myArticle’,’mypopup’,3000);
-
-</script>
-s
-
-.content{
-
-     display: none;
-     position: absolute;
-     top: 2%;
-     left: 2%;
-     width: 8%;
-     height: 1.6%;
-     padding: 15px;
-/*      border: 3px solid black;
-*/    
-/* background-color: rgba(0, 0, 0, 0.2);*/
-
-     z-index:1002;
-     overflow: auto;
-}
-.inner_content{
- position: absolute;
- top: 1%;
- left: 1%;
- color : white;
- font-size: 8;
-}
-
-
-
-</pre>
-
-          Note that the display is set to none;
-
-
-    Place the function at the bottom
+See the index.html file for the example
