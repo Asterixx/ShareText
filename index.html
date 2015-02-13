@@ -4,18 +4,22 @@
 <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 <meta content="utf-8" http-equiv="encoding">
 	<script type="text/javascript" src="ShareText.js"> </script>
+
+
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<div id="asd"></div>
 <style type="text/css">
-.white_content {
+/*.white_content{
+
       display: none;
       position: absolute;
       top: 2%;
       left: 2%;
       width: 7%;
       height: 1.6%;
-      padding: 16px;
+      padding: 15px;
       border: 3px solid black;
       background-color: rgba(0, 0, 0, 0.7);
       z-index:1002;
@@ -27,28 +31,34 @@
   left: 1%;
   color : white;
   font-size: 8;
-}
+}*/
 </style>
 
 
-<div id="light" class="white_content">
+<div id="mypopup"  class="content">
+
 <div class="inner_content">Esc</div>
-   <a href='#' onclick='ST.twitter("via @asteris")' >
+   <a href='#' onclick='ST.twitter("via @asterismano",true)' >
     <img src="img/twitter.svg" alt="twitter"
   width="26" height="26" border="0" />
   </a>
 
-  <a href="#" onclick='ST.mail(this,"This mail was sent from www.mysite.com")'>
-    <img src="img/mail.svg" alt="mail"
+  <a href="#" onclick='ST.mail(this,"This mail was sent  from www.example.com")'>
+    <img src="img/at.png" alt="mail"
   width="26" height="26" border="0" />
   </a>
+
+  <!--  <a id="google" href="#" target="_blank" onclick='ST.gs(this)'>
+    <img src="img/mail.svg" alt="googlesearch"
+  width="26" height="26" border="0" />
+  </a> -->
 
 </div>
 
 
 
 
-<div id="myArticle" onmouseup="ST.ShareText('light','noLimit');">
+<div id="myArticle">
 
 
 <span>
@@ -75,6 +85,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor ero
 
 <!-- <a class="tooltips" href="#">CSS Tooltips<span>Toolddfdfftip</span></a>
  -->
+<script type="text/javascript">
+ST.ShareText('myArticle','mypopup',3000);
 
+</script>
 </body>
 </html>
