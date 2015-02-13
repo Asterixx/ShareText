@@ -1,5 +1,10 @@
 When the user highlights a text in your article, a Popup is coming up with a Twitter and Mail button and the user can share the highlighted text
 
+I took the idea from Guardian 
+A live example:
+http://www.theguardian.com/world/2015/feb/13/france-dominic-strauss-kahn-prostitutes-pimping-trial-lille
+
+
 There is a bit.ly link shortener feature.
 
 Hide links pressing ESC button
