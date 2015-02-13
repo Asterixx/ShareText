@@ -11,37 +11,40 @@ Hide links pressing ESC button
 
 
    There are only three functions
+   
 
        ST.ShareText(articleID,popupID,hideTime,limit)
        ST.twitter(via,longurl)
        ST.mail(this,additionalText)
 
+
+
    The first one.
 
        ST.ShareText(articleID,popupID,hideTime,limit)
 
-    articleID -Required  Define the article id you want to use
-    popupID - Required Define the id of your links
-    hideTime - Optional Define the time before the popup disappears (5000 = 5seconds)
-    limit - Optional How many times the popup will show up (if you leave it empty, it has no limit)
+articleID -Required  Define the article id you want to use
+popupID - Required Define the id of your links
+hideTime - Optional Define the time before the popup disappears (5000 = 5seconds)
+limit - Optional How many times the popup will show up (if you leave it empty, it has no limit)
 
 
     ST.Twitter(via,longurl);
 
 
-    both not required;
+both not required;
 
-    With “via" parameter, you declare your twitter account name so that it is placed in the end of the tweet. You can also write "via @accoungName”
+ With “via" parameter, you declare your twitter account name so that it is placed in the end of the tweet. You can also write "via @accoungName”
     longurl : true or false You say if you want your article Url to become short with bit.ly service.
 
-    If the entire text plus the via plus the link are more than 140 chars(exactly the chars Twitter allows), the selected text will be autocratically cut down in order to fit.
+If the entire text plus the via plus the link are more than 140 chars(exactly the chars Twitter allows), the selected text will be autocratically cut down in order to fit.
 
 
 
       ST.mail(this,additionalText)
 
-    this : Required
-    additionalText : You write a string that you’d like to be at the end of your email
+this : Required
+ additionalText : You write a string that you’d like to be at the end of your email
 
     e.g. ST.mail(this,”This mail was sent from example.com”);
 
@@ -84,10 +87,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor ero
 ST.ShareText(‘myArticle’,’mypopup’,3000);
 
 </script>
-
-
-    CSS
-
 
 
 .content{
